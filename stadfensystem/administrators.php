@@ -20,6 +20,7 @@ class Administrator
 		return $AdminhObj;
 	}
 	
+	//Sets a new password for th specyfied admin ID
 	public static function SetNewPassword($AdminID,$Password)
 	{
 		global $DB;
