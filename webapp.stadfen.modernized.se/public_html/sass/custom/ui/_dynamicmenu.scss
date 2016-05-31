@@ -1,0 +1,32 @@
+/* CSS Document */
+
+$dynamic-menu-background: #FFF;
+
+.menu-context {
+	
+	position: fixed;
+	background:$dynamic-menu-background;
+	z-index: 30000;
+	border: 1px solid darken($dynamic-menu-background, 13%);
+	max-height: 400px;
+	min-width: 120px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	
+	.menu-item {
+		padding: 8px;
+		color:#000;
+		font-size: 1em;
+		cursor: pointer;
+		border-bottom: 1px solid darken($dynamic-menu-background, 5%);
+		
+		&:last-child {
+			border-bottom: 0;	
+		}
+		
+		&:hover {
+			background:darken($dynamic-menu-background, 7%);	
+		}
+	}
+	
+}

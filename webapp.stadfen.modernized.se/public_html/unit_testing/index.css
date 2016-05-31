@@ -1,0 +1,28 @@
+/* CSS Document */
+
+html, body {
+	background:#F4F4F4;
+	margin: 0;
+}
+
+.dir-container {
+	background:#FFF;	
+	margin: 10px 10px; width: 400px;
+	padding: 10px 15px;
+}
+
+.dir-container h1 {
+	font-size: 2em;
+	color:#53CCC6;
+	margin: 0;
+}
+
+.dir-item {
+	padding: 15px 0px;
+}
+
+.dir-item a {
+	font-size: 1.2em;	
+	margin: 0;
+	text-transform: uppercase;
+}

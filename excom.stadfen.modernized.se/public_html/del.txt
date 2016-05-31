@@ -1,0 +1,4 @@
+/deliveryreport.php?trackingid=754538cf94eae36e37ec185c4f6b3517&destination=0046707838026&status=delivered
+/deliveryreport.php?trackingid=79753be86c07e4904a842595e9e199d7&destination=0046707838026&status=delivered
+/deliveryreport.php?trackingid=49c6ab614645a0164ddadc94a5b13d1b&destination=0046707838026&status=delivered
+/deliveryreport.php?trackingid=ac2f183c0a84662b05aa681c21e47ba2&destination=0046707838026&status=delivered

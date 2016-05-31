@@ -1,0 +1,21 @@
+/* CSS Document */
+
+.modernizedformerror
+{
+	border-color: red;
+}
+
+.modernizederrorlabel
+{
+	background: #FFE63E;
+	margin-left: 5px;
+	width: auto;
+	display: none;
+}
+
+.modernizederrorlabel p {
+	padding: 7px;	
+	margin: 0px 0px;
+	font-size: 1.2em;
+	color:#121212;
+}

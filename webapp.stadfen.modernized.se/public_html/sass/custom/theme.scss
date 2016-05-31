@@ -1,0 +1,111 @@
+/* CSS Document */
+
+
+/* BASE THEME COLORS */
+$theme-color-blue: rgb(27, 211, 249);
+$theme-color-gray: rgb(238, 238, 238);
+$theme-color-white: rgb(255,255,255);
+$theme-color-yellow: #FFE63E;
+$theme-color-text: rgb(102, 102, 102);
+
+/* THEME COLORS APPLIED TO DESIGN */
+$menu-theme: $theme-color-blue;
+$menu-theme-color: #FFF;
+$menu-theme-new-message-color: lighten($menu-theme, 25%);
+
+/* BACKGROUND-THEME 1 */
+$background-theme-1: $theme-color-gray;
+$background-theme-1-text-hover: darken($background-theme-1, 32%);
+$background-theme-1-text-inactive: darken($background-theme-1, 23%);
+$background-theme-1-text-active: darken($background-theme-1, 32%);
+$background-theme-1-header: $background-theme-1-text-active;
+$background-theme-1-header-2: darken($background-theme-1, 55%);
+$background-theme-1-conversation-hover: lighten($background-theme-1, 2%);
+$background-theme-1-conversation-active: lighten($background-theme-1, 3%);
+$background-theme-1-placeholder: $background-theme-1-text-inactive;
+$background-theme-1-separator: darken($background-theme-1, 6%);
+
+/* BACKGROUND-THEME 2 */
+$background-theme-2: $theme-color-white;
+
+/* CONVERSATION */
+$conversation-out: #71d5a0;  
+$conversation-out-text: #FFF; 
+$conversation-in: $background-theme-1;
+$conversation-in-text: darken($conversation-in, 32%);
+$conversation-text-size: 0.9em;
+
+/* CHECKBOX */
+$checkbox-background-unchecked: darken($theme-color-gray, 10%);
+$checkbox-background-checked: $theme-color-blue;
+$checkbox-color-unchecked: darken($theme-color-gray, 35%);
+$checkbox-color-checked: #FFF;
+
+/* BUTTONS */
+$btn-default-text: #FFF !default;
+$btn-default-bg: $theme-color-blue !default; 
+$btn-default-border: transparent !default; 
+$btn-default-disabled: darken($theme-color-gray, 10%) !default; 
+$btn-default-disabled-text: darken($btn-default-disabled, 33%) !default; 
+
+$btn-sidemenu-color:              #FFF !default;
+$btn-sidemenu-bg:                 transparent !default;
+$btn-sidemenu-border:             #FFF !default;
+
+$btn-table-text: #FFF !default;
+$btn-table-bg: transparent !default;
+$btn-table-border: $background-theme-1-text-active !default;
+
+strong {
+		font-weight: 400;
+}
+
+h1 {
+	font-size: 	2.8em;
+	font-weight: 300;
+	margin: 0px;
+	position: relative;
+	left: -4px;
+	color:$background-theme-1-header; 
+
+}
+ 
+p {
+	font-weight: 300;
+	font-size: 1.2em;	
+}
+
+.form-group {
+	
+}
+
+.form-control {
+	box-shadow: none;	
+}
+
+.bg {
+
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	display: none;
+	
+	&.faded {
+		background-color:#000;
+		opacity: 0.40;	
+	}
+}
+
+#main-content-holder {
+
+}
+
+.module {
+	
+	display: flex;
+	flex-direction: row;
+	min-height: 100vh;
+	z-index: 0;
+	
+}

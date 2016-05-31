@@ -1,0 +1,43 @@
+body:not(.loading_screen) #page_loadingscreen{display:none;}
+
+body.loggedin #page_login{display:none;}
+body:not(.loggedin) #page_main{display:none;}
+
+body.mobile #sidemenu {display:none;}
+
+body:not(.module_conversations) #module_conversations{display:none;}
+body:not(.module_statistics) #module_statistics{display:none;}
+body:not(.module_settings) #module_settings{display:none;}
+body:not(.module_editaccount) #module_editaccount{display:none;}
+
+body:not(.account_overview) #account_overview { display: none; }
+body:not(.account_templates) #account_templates { display: none; }
+body:not(.account_signatures) #account_signatures { display: none; }
+body:not(.account_silentmode) #account_silentmode { display: none; }
+body:not(.account_accountlist) #account_accountlist { display: none; }
+
+body:not(.convlist_active) #convlist_active{display:none;}
+body:not(.convlist_inactive) #convlist_inactive{display:none;}
+body:not(.convlist_archived) #convlist_archived{display:none;}
+
+body.convlist_active #convlist_active{display:flex;display: -webkit-flex; /* Safari */}
+body.convlist_inactive #convlist_inactive{display:flex;display: -webkit-flex; /* Safari */}
+body.convlist_archived #convlist_archived{display:flex;display: -webkit-flex; /* Safari */}
+
+body.newaccount #heading_editacc{display:none;}
+body:not(.newaccount) #heading_newacc{display:none;}
+body.newaccount #editacc_buttonbar1{display:none;}
+
+body:not(.newcreatedacc) #editacc_createsucces{display:none;}
+
+body.tablet.module_conversations.conv .conversation-list {display:none;}
+body.mobile.module_conversations.conv .conversation-list {display:none;}
+.conversation-item:not(.thread-error) .thread-error-icon {display:none !important;}
+
+body:not(.conv) .conversation-thread {display:none;}
+
+.messagerow:not(.error) .message-error{display:none;}
+.messagerow:not(.buffered) .message-buffer{display:none;}
+
+#settings-tabs-container:not(.loading) .loading-icon {display:none;}
+#settings-tabs-container.loading .active-container {display:none;}

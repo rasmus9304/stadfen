@@ -1,0 +1,37 @@
+/* CSS Document */
+
+.popup-box {
+	background:#FFF;
+	z-index: 2001;
+	padding: 25px;
+	border: 1px solid #8B8B8B;
+	box-shadow: 0px 0px 4px rgba(0,0,0, 0.22);
+}
+
+#popup-window {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 20000;
+	visibility: hidden;
+	background-color: rgba(0,0,0,0.10);
+}
+
+.popup-box .popup-title
+{
+	font-size: 1.4em;
+	font-weight: 300;
+
+}
+
+.popup-box .popup-content
+{
+	padding: 20px 0px;
+}
+
+.popup-box .btn-default {
+    padding-left: 40px; padding-right: 40px;
+	margin-right: 5px;
+}

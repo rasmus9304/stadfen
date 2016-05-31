@@ -1,0 +1,4 @@
+<Files "comsystem.php">
+Order Allow,Deny
+Deny from all
+</Files>

@@ -1,0 +1,27 @@
+/* CSS Document */
+
+.bottom .loading 
+{
+	margin: 40px auto;
+	text-align: center; 
+	display: none;
+	color:$theme-color-white;
+	
+	img { 
+		width: $item-width;
+		height: $item-width;
+		
+		&.animate {
+			@include animation(spin 1.1s linear infinite);	
+		}
+	}
+	
+	p {
+		font-size: 1em;	
+		margin: 20px 10px;
+	}
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

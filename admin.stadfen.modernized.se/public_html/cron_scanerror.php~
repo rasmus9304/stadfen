@@ -1,0 +1,13 @@
+<?php
+
+require_once("admin-system.php");
+
+session_start();
+
+
+if(!Admin::IsLoggedIn())
+{
+	header("Location: login.php");
+	die;
+}
+

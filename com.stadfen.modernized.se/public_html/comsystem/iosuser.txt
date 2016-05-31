@@ -1,0 +1,407 @@
+===============================================================================
+2015-05-20 12:25:42
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [devicetoken] => <29ad7813 f21ce1e1 abd7afc1 d313eba3 0088be41 30fd5267 3d8cf8f7 6f5764e2>
+    [iosuserid] => 0
+)
+===============================================================================
+2015-05-20 12:27:19
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [devicetoken] => <29ad7813 f21ce1e1 abd7afc1 d313eba3 0088be41 30fd5267 3d8cf8f7 6f5764e2>
+    [iosuserid] => 0
+)
+REGISTER
+===============================================================================
+2015-05-20 12:28:13
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [devicetoken] => <29ad7813 f21ce1e1 abd7afc1 d313eba3 0088be41 30fd5267 3d8cf8f7 6f5764e2>
+    [iosuserid] => 0
+)
+REGISTER
+===============================================================================
+2015-05-24 16:59:13
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [regisrationid] => APA91bGm7sDW9QduPxHxjyyWs46yosZRPcQa-lAXW4lXj5_J0bWkE_HPZ2utFgTv60dqi5QMS9KaK7mk-WuztoT-nSCOy-duDNYuQseNveGEml2veEFL4FyuA4GcNAi7AN70gG-wkANhLjUQO9jIiF6QIjOE7fgCfw
+    [androiduserid] => 0
+)
+REGISTER
+===============================================================================
+2015-05-24 16:59:13
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [regisrationid] => APA91bGm7sDW9QduPxHxjyyWs46yosZRPcQa-lAXW4lXj5_J0bWkE_HPZ2utFgTv60dqi5QMS9KaK7mk-WuztoT-nSCOy-duDNYuQseNveGEml2veEFL4FyuA4GcNAi7AN70gG-wkANhLjUQO9jIiF6QIjOE7fgCfw
+    [androiduserid] => 0
+)
+REGISTER
+===============================================================================
+2015-05-24 16:59:13
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [regisrationid] => APA91bGm7sDW9QduPxHxjyyWs46yosZRPcQa-lAXW4lXj5_J0bWkE_HPZ2utFgTv60dqi5QMS9KaK7mk-WuztoT-nSCOy-duDNYuQseNveGEml2veEFL4FyuA4GcNAi7AN70gG-wkANhLjUQO9jIiF6QIjOE7fgCfw
+    [androiduserid] => 0
+)
+REGISTER
+===============================================================================
+2015-08-23 16:43:48
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [devicetoken] => 85f454ee 0f9ed5f2 677c98e8 86fc59b4 81fa09b6 94729ed9 07c6efd7 34dedca7
+    [iosuserid] => 0
+)
+REGISTER
+===============================================================================
+2015-08-23 16:46:03
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [devicetoken] => 85f454ee 0f9ed5f2 677c98e8 86fc59b4 81fa09b6 94729ed9 07c6efd7 34dedca7
+    [iosuserid] => 0
+)
+REGISTER
+===============================================================================
+2015-08-23 20:23:52
+Array
+(
+    [action] => unregister
+    [accountid] => 15
+    [devicetoken] => 
+    [iosuserid] => 3
+)
+===============================================================================
+2015-08-23 20:24:00
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [devicetoken] => 85f454ee 0f9ed5f2 677c98e8 86fc59b4 81fa09b6 94729ed9 07c6efd7 34dedca7
+    [iosuserid] => 0
+)
+REGISTER
+===============================================================================
+2015-09-18 17:07:54
+Array
+(
+    [action] => unregister
+    [accountid] => 15
+    [devicetoken] => 
+    [iosuserid] => 4
+)
+===============================================================================
+2015-09-18 17:07:58
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [devicetoken] => 85f454ee 0f9ed5f2 677c98e8 86fc59b4 81fa09b6 94729ed9 07c6efd7 34dedca7
+    [iosuserid] => 0
+)
+REGISTER
+===============================================================================
+2015-09-18 17:09:06
+Array
+(
+    [action] => unregister
+    [accountid] => 15
+    [devicetoken] => 
+    [iosuserid] => 5
+)
+===============================================================================
+2015-09-18 17:09:43
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [devicetoken] => 85f454ee 0f9ed5f2 677c98e8 86fc59b4 81fa09b6 94729ed9 07c6efd7 34dedca7
+    [iosuserid] => 0
+)
+REGISTER
+===============================================================================
+2015-09-22 11:41:18
+Array
+(
+    [action] => unregister
+    [accountid] => 0
+    [devicetoken] => 
+    [iosuserid] => 0
+)
+===============================================================================
+2015-10-11 15:41:22
+Array
+(
+    [action] => unregister
+    [accountid] => 0
+    [devicetoken] => 
+    [iosuserid] => 0
+)
+===============================================================================
+2015-10-11 15:42:22
+Array
+(
+    [action] => unregister
+    [accountid] => 0
+    [devicetoken] => 
+    [iosuserid] => 0
+)
+===============================================================================
+2015-10-11 15:42:51
+Array
+(
+    [action] => unregister
+    [accountid] => 0
+    [devicetoken] => 
+    [iosuserid] => 0
+)
+===============================================================================
+2015-10-11 15:45:01
+Array
+(
+    [action] => unregister
+    [accountid] => 0
+    [devicetoken] => 
+    [iosuserid] => 0
+)
+===============================================================================
+2015-10-11 22:45:40
+Array
+(
+    [action] => unregister
+    [accountid] => 15
+    [devicetoken] => 
+    [iosuserid] => 6
+)
+===============================================================================
+2015-10-11 22:45:43
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [devicetoken] => 85f454ee 0f9ed5f2 677c98e8 86fc59b4 81fa09b6 94729ed9 07c6efd7 34dedca7
+    [iosuserid] => 0
+)
+REGISTER
+===============================================================================
+2015-10-11 22:45:49
+Array
+(
+    [action] => unregister
+    [accountid] => 15
+    [devicetoken] => 
+    [iosuserid] => 7
+)
+===============================================================================
+2015-10-11 22:45:50
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [devicetoken] => 85f454ee 0f9ed5f2 677c98e8 86fc59b4 81fa09b6 94729ed9 07c6efd7 34dedca7
+    [iosuserid] => 0
+)
+REGISTER
+===============================================================================
+2015-10-11 22:46:03
+Array
+(
+    [action] => unregister
+    [accountid] => 15
+    [devicetoken] => 
+    [iosuserid] => 8
+)
+===============================================================================
+2015-10-11 22:46:05
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [devicetoken] => 85f454ee 0f9ed5f2 677c98e8 86fc59b4 81fa09b6 94729ed9 07c6efd7 34dedca7
+    [iosuserid] => 0
+)
+REGISTER
+===============================================================================
+2015-10-11 22:46:16
+Array
+(
+    [action] => unregister
+    [accountid] => 15
+    [devicetoken] => 
+    [iosuserid] => 9
+)
+===============================================================================
+2015-10-11 22:46:21
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [devicetoken] => 85f454ee 0f9ed5f2 677c98e8 86fc59b4 81fa09b6 94729ed9 07c6efd7 34dedca7
+    [iosuserid] => 0
+)
+REGISTER
+===============================================================================
+2015-10-11 22:49:54
+Array
+(
+    [action] => unregister
+    [accountid] => 15
+    [devicetoken] => 
+    [iosuserid] => 10
+)
+===============================================================================
+2015-10-11 22:50:04
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [devicetoken] => 85f454ee 0f9ed5f2 677c98e8 86fc59b4 81fa09b6 94729ed9 07c6efd7 34dedca7
+    [iosuserid] => 0
+)
+REGISTER
+===============================================================================
+2015-10-11 23:00:57
+Array
+(
+    [action] => unregister
+    [accountid] => 15
+    [devicetoken] => 
+    [iosuserid] => 11
+)
+===============================================================================
+2015-10-11 23:00:59
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [devicetoken] => 85f454ee 0f9ed5f2 677c98e8 86fc59b4 81fa09b6 94729ed9 07c6efd7 34dedca7
+    [iosuserid] => 0
+)
+REGISTER
+===============================================================================
+2015-10-11 23:01:39
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [devicetoken] => 85f454ee 0f9ed5f2 677c98e8 86fc59b4 81fa09b6 94729ed9 07c6efd7 34dedca7
+    [iosuserid] => 0
+)
+REGISTER
+===============================================================================
+2015-10-11 23:01:47
+Array
+(
+    [action] => unregister
+    [accountid] => 15
+    [devicetoken] => 
+    [iosuserid] => 12
+)
+===============================================================================
+2015-10-11 23:01:48
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [devicetoken] => 85f454ee 0f9ed5f2 677c98e8 86fc59b4 81fa09b6 94729ed9 07c6efd7 34dedca7
+    [iosuserid] => 0
+)
+REGISTER
+===============================================================================
+2015-11-11 17:00:39
+Array
+(
+    [action] => unregister
+    [accountid] => 0
+    [devicetoken] => 
+    [iosuserid] => 0
+)
+===============================================================================
+2015-11-12 12:41:01
+Array
+(
+    [action] => unregister
+    [accountid] => 0
+    [devicetoken] => 
+    [iosuserid] => 0
+)
+===============================================================================
+2015-11-12 12:47:22
+Array
+(
+    [action] => unregister
+    [accountid] => 0
+    [devicetoken] => 
+    [iosuserid] => 0
+)
+===============================================================================
+2015-11-19 16:19:51
+Array
+(
+    [action] => unregister
+    [accountid] => 0
+    [devicetoken] => 
+    [iosuserid] => 0
+)
+===============================================================================
+2015-11-19 17:35:34
+Array
+(
+    [action] => unregister
+    [accountid] => 0
+    [devicetoken] => 
+    [iosuserid] => 0
+)
+===============================================================================
+2015-11-19 17:41:04
+Array
+(
+    [action] => unregister
+    [accountid] => 0
+    [devicetoken] => 
+    [iosuserid] => 0
+)
+===============================================================================
+2015-11-19 18:38:30
+Array
+(
+    [action] => unregister
+    [accountid] => 0
+    [devicetoken] => 
+    [iosuserid] => 0
+)
+===============================================================================
+2015-11-19 22:56:33
+Array
+(
+    [action] => unregister
+    [accountid] => 0
+    [devicetoken] => 
+    [iosuserid] => 0
+)
+===============================================================================
+2015-12-18 12:08:01
+Array
+(
+    [action] => register
+    [accountid] => 0
+    [devicetoken] => 17b82621 78058d3c eee0c611 c4df0627 5372ec81 eaf838fc 22e2721b 3066b93c
+    [iosuserid] => 0
+)
+REGISTER
+

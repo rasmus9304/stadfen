@@ -1,0 +1,19 @@
+/* CSS Document */
+
+$form-transparency: rgba(0,0,0,0.14);
+
+.form-control.transparent {
+	background-color: transparent;
+	border: 1px solid $form-transparency;
+	box-shadow: none;
+	border-right: 0px;
+}
+
+$btn-image-color:              #333 !default;
+$btn-image-bg:                 transparent !default;
+$btn-image-border:             $form-transparency !default;
+
+.btn-image {
+  @include button-variant($btn-image-color, $btn-image-bg, $btn-image-border);
+  border-left: 0px;
+}

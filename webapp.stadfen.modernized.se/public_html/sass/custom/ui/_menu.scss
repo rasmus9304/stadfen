@@ -1,0 +1,134 @@
+/* CSS Document */
+
+$item-margin: 45px;
+$side-menu-width: 120px;
+$item-width: 40px;
+
+.side-menu {
+	width: $side-menu-width; 
+	background-color:rgb(27, 211, 249); 
+	height: 100vh; 
+	position: fixed;
+	
+	@include tablet {
+		width: $side-menu-width - 40px;
+	}
+	
+	@include phone {
+		width: $side-menu-width - 60px;
+	}
+
+	.menu-items {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 0px 20px;
+		
+		@include phone {
+			padding: 0px 5px;	
+		}
+		
+		.item {
+			margin-bottom: $item-margin;
+			text-align: center;
+			cursor: pointer;
+			position: relative;
+			
+			.new-incoming-messages-box {
+				display: none;
+				width: 24px; height: 24px;
+				border-radius: 12px;
+				background:$menu-theme-new-message-color;
+				color:#FFF;
+				position: absolute;
+				bottom: -5px;
+				right: 5px;
+				
+				@include tablet {
+					right: -6px;
+					bottom: -10px;
+					width: 20px;
+					height: 20px;
+					border-radius: 10px;
+				}
+				
+				p {
+					position: relative;
+					top: 2px;
+					margin: 0px;
+					font-weight: 600; 
+					font-size: 1.1em;
+					
+					@include tablet {
+						font-size: 1em;	
+						top: 0px;	
+					}
+				}
+			}
+			
+			@include phone {
+				margin-bottom: $item-margin - 15px;	
+			}
+			
+			&.selected img {
+				width: $item-width + 10px;	
+				
+				@include tablet {
+					width: $item-width;	
+				}
+				
+				@include phone {
+					width: $item-width - 10px;	
+				}
+			}
+			
+			img:hover {
+				width: $item-width + 10px;	
+				
+				@include tablet {
+					width: $item-width;	
+				}
+				
+				@include phone {
+					width: $item-width - 10px;	
+				}
+			}
+			
+			img {
+				display: inline;
+				width: $item-width;
+				@include transition(width 0.4s);
+				
+				@include phone {
+					width: $item-width - 20px;	
+				}
+				
+				@include tablet {
+					width: $item-width - 10px;	
+				}
+			}
+			
+		}
+
+		.item:first-child {
+			margin-top: $item-margin;
+			
+			@include phone {
+				margin-top: $item-margin - 20px;	
+			}
+		}
+	}
+	
+	.bottom {
+		
+		position: absolute;
+		bottom: 20px;
+		width: 100%;
+		
+		.new-message {
+			margin: 0 auto;	
+		}
+		
+	}
+
+}

@@ -1,0 +1,92 @@
+/* CSS Document */
+
+  .send-message-text {
+	
+	background-color: transparent;
+	width: 100%;
+	border: 0;
+	resize: none;
+	font-size: 1.2em;
+	min-height: 200px;
+	
+		&::-webkit-scrollbar { 
+    	display: none; 
+	}
+	
+
+	
+	&:focus {outline:0px none transparent;}
+	  
+  }
+
+.popover {
+	width: 550px;	
+	max-width: none;
+	left: 21px !important;
+	background:$background-theme-1;
+	border-radius: 0px;
+	box-shadow: none;
+	border: 0;
+	
+	@include tablet {
+		left: 12px !important;	
+	}
+	
+	&.top > .arrow:after {
+		border-top-color:$background-theme-1;
+	}
+	
+	.open-templates {
+		cursor: pointer;	
+	}
+}
+
+.popover-content {
+  padding: 15px 15px;
+}
+
+.popover-title {
+  display: none;
+}
+
+.popover-newmessage-form {
+  width: 100%;
+  padding: 14px;
+  
+  	.text-length {
+		
+		&.warning {
+		color:#CC282B;
+		}
+	}
+  
+  .message-text-container {
+		overflow-y:scroll;
+		margin-bottom: 25px;
+  }
+  
+  .send-message-phonenr {
+	margin-bottom: 25px; 
+	font-size: 1.2em; 
+	min-height: 42px; 
+	padding: 4px;
+	
+	input {
+		background: none;
+		border: 0;
+		color: #1E1E1E;
+		display: inline-block;
+		border-radius: 0;
+		width: auto;
+		margin: 0;
+		padding: 4px;
+		height: 100%;
+	}
+	
+  }
+  
+  .company-signature {
+	 padding-top: 20px; 
+	 @include opacity(0.5);
+  }
+}

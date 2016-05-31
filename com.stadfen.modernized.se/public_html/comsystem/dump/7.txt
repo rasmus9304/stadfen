@@ -1,0 +1,10 @@
+stdClass Object
+(
+    [ConversationID] => 7
+    [ConversationName] => 
+    [Nickname] => 
+    [Number] => 46737330426
+    [NewMessageCount] => 1
+    [ConvCategory] => Active
+    [LastMessage] => Hgfhyg
+)

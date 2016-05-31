@@ -1,0 +1,44 @@
+/* CSS Document */
+
+body, html {
+	margin: 10px;	
+	background:#F4F4F4;
+}
+
+.absolute-center {
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.container {
+	background:#FFF;
+	display: flex;
+}
+
+.sidebar {
+	flex-grow: 1;
+	padding: 20px;
+}
+
+.main-content {
+	flex-grow: 3;	
+	padding: 20px;
+	border-left: 1px solid #F4F4F4;
+}
+
+.logo {
+	color: #ACACAC;
+	border-bottom: 1px solid #F4F4F4;
+}
+
+.logo h1 {
+	margin: 0;
+	font-size: 0.9em;
+	text-transform: uppercase;	
+}
+
+.logo p {
+	font-size: 0.8em;
+	text-transform: uppercase;	
+}

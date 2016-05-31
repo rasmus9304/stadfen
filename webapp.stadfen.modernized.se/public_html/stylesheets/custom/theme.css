@@ -1,0 +1,14 @@
+/* CSS Document */
+/* line 3, ../../sass/custom/theme.scss */
+h1 {
+  font-size: 3.6em;
+  font-weight: 300;
+  margin: 0px;
+  position: relative;
+  left: -4px;
+}
+
+/* line 11, ../../sass/custom/theme.scss */
+p {
+  font-weight: 300;
+}

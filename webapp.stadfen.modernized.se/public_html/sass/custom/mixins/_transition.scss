@@ -1,0 +1,6 @@
+/* CSS Document */
+
+@mixin transition($animate) {
+    -webkit-transition: $animate; /* Safari */
+    transition: $animate;
+}

@@ -1,0 +1,30 @@
+/* CSS Document */
+
+.searchbar {
+	
+	@include transition(width 0.2s);
+	
+	width: 130px;
+
+	@include placeholder {
+		color:$background-theme-1-text-inactive;	
+	}
+	
+	.form-control {
+		height: 39px;
+		font-size: 1.5em;
+		font-weight: 300;
+		border-color: $background-theme-1-text-inactive;
+		color: $background-theme-1-text-active;
+	}
+	
+	.input-group-btn .btn-image {
+			
+			border-color: $background-theme-1-text-inactive;
+			
+			img {
+				padding: 6px 0px;		
+			}
+			
+		}
+}

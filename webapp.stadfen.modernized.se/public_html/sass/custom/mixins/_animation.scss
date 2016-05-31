@@ -1,0 +1,8 @@
+/* CSS Document */
+
+@mixin animation($a)
+{
+	-webkit-animation:$a;
+    -moz-animation:$a;
+    animation:$a;
+}

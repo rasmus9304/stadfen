@@ -1,0 +1,45 @@
+/* CSS Document */
+
+#page_loadingscreen {
+	z-index: 1000000;	
+	width: 100vw; height: 100vh; background-color:#343372; color:#FFF; text-align: center;
+	position: fixed; 
+	
+	p {
+		font-size: 1em;	
+		letter-spacing: 0.5px;
+		text-align: center; margin-top: 13px;
+	}
+}
+
+#page_login {
+	background-color:#343372;  
+	color:#FFF;
+	
+	.login-popup {
+		width: 100%; 
+		height: 100%;
+		padding: 10px 35px; 
+		border: 0px;
+		border-radius: 4px; 
+		
+		input[type="text"], input[type="password"]
+		{
+			border-radius: 0px;	
+			font-size: 1.6em;
+			font-weight: 300;
+			height: 54px;
+			color:#201F43 !important;  
+		}
+		
+		label {
+			font-weight: 300 !important;	
+			font-size: 1.1em !important;
+			margin-bottom: 8px !important;
+		}
+	}
+	
+	input:-webkit-autofill {
+		-webkit-box-shadow: 0 0 0px 1000px white inset;
+	}
+}

@@ -1,0 +1,86 @@
+<?php require_once("admin.php");
+
+require_once("../../stadfensystem/database.php");
+include("header.php"); 
+
+
+if(!isset($_GET['id']) ||!is_numeric($_GET['id']))
+{
+	header("Location: /");
+	die;
+}
+
+$MessageID = $_GET['id'];
+
+$STCustomer = $DB->Prepare("SELECT * FROM Messages WHERE ID=?;");
+$STCustomer->execute(array($MessageID));
+
+if($STCustomer->rowCount() > 0)
+{
+	$info = $STCustomer->fetch(PDO::FETCH_ASSOC);
+?>
+
+<script>
+
+var MessageID = <?php echo $MessageID; ?>;
+
+
+</script>
+
+<div style="width: 900px; margin: 0 auto;">
+    <div style="border-bottom: 1px solid #ECECEC;">
+        <h1 style="font-weight: 300; font-size: 3em;"><?php echo $info['EmailAddress']; ?></h1>
+    </div>
+    <div style="padding: 15px 0px; border-bottom: 1px solid #ECECEC;">
+    	<canvas id="bar-chart" width="900" height="140"></canvas>
+    </div>
+   
+    
+    <div style="">
+    
+    	<h2 style="font-weight: 300; margin: 20px 0px; font-size: 1.8em;">Allmän information</h2>
+        <table class="list business-customers-list" style="margin-bottom:20px;">
+            <tbody>
+                <tr><td class="bold">Kontonr:</td><td><?php echo $info['AccountID']; ?></td></tr>
+                <tr><td class="bold">Företagskund:</td><td><a href="/viewbusiness.php?id=<?php echo $info['CustomerID']; ?>"><?php echo $info['CustomerID']; ?></a></td></tr>
+                <tr><td class="bold">Företagskund (Namn):</td><td><?php echo $info['CustomerName']; ?></td></tr>
+                <tr><td class="bold">Skapad:</td><td><?php echo $info['CreateTime']; ?></td></tr>
+                
+            </tbody>
+        </table>
+        
+        <h2 style="font-weight: 300; margin: 20px 0px; font-size: 1.8em;">Lösenord</h2>
+        <table class="list business-customers-list" style="margin-bottom:20px;">
+            <tbody>
+                <tr><td class="bold">Lösenordet ändrat:</td><td><?php echo $info['NewPasswordTime']; ?></td></tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div id="passwordactions">
+        <a class="btn btn-default" href="javascript:onclickNewPassword(this);" role="button">Generera nytt lösenord och skicka</a>
+        <span id="passwordactions_message"></span>
+    </div>
+    
+
+</div>
+
+
+
+<?php 
+
+}
+else
+
+{
+?>
+<div style="width: 900px; margin: 0 auto;">
+    <div style="border-bottom: 1px solid #ECECEC;">
+        <p style="font-size: 1.5em;font-weight: 300; color:#636363; margin-bottom: 15px;">Kunde inte ladda konto</p>
+    </div>
+</div>
+
+<?php
+}
+
+include("footer.php"); ?>

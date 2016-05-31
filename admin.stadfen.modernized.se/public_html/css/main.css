@@ -1,0 +1,241 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.no-margin {
+	margin: 0px;	
+}
+
+// Change the white to any color ;)
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+#bar-chart
+{
+
+}
+
+nav a {
+    font-size: 1em;
+    margin: 0px;
+    width: 100%;
+    font-weight: 400;
+    font-family: source-sans-pro;
+    text-transform: uppercase;
+    color: #92b5be;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	border: 0px;
+    display: block;
+    text-align: center;
+    padding: 21px 20px;
+}
+
+nav a:hover {
+	text-decoration: none;	
+}
+
+nav a:first-child {
+    padding-top: 42px;
+}
+
+svg {
+	height: 62px;	
+	width: 62px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+svg path {
+	fill: #92b5be;
+}
+
+body#page-customers nav a#nav-customers,
+body#page-accounts nav a#nav-accounts,
+body#page-cellsynt nav a#nav-cellsynt,
+body#page-messages nav a#nav-messages,
+body#page-exporting nav a#nav-exporting,
+body#page-sessions nav a#nav-sessions,
+body#page-settings nav a#nav-settings {
+	color: #313131;
+}
+
+body#page-customers nav a#nav-customers svg path,
+body#page-accounts nav a#nav-accounts svg path,
+body#page-cellsynt nav a#nav-cellsynt svg path,
+body#page-messages nav a#nav-messages svg path,
+body#page-sessions nav a#nav-sessions svg path,
+body#page-exporting nav a#nav-exporting svg path,
+body#page-settings nav a#nav-settings svg path {
+	fill: #313131;
+}
+
+.list {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.incoming-messages-list thead th {
+	font-size: 1em;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-left: 0px;
+    padding-top: 12px; padding-bottom: 12px;
+    font-family: source-sans-pro;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #686868;
+	border-bottom: 1px solid #D5D5D5;
+}
+
+.incoming-messages-list tbody tr td
+{
+    padding-top: 7px; padding-bottom: 7px;
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+.incoming-messages-list tbody tr {
+
+margin: 3px 0px;
+	
+}
+
+.incoming-messages-list tbody tr td img
+{
+	 position: relative; 
+	 top: -1px;
+}
+
+.incoming-messages-list tbody tr.incoming {
+	color:#3d8a66;
+}
+
+.incoming-messages-list tbody tr.outgoing {
+	color:#2C72DF;
+}
+
+.incoming-messages-list tbody tr.outgoing td a {
+	background:#2C72DF !important;
+}
+
+.business-customers-list
+{
+	
+}
+
+.business-customers-list thead th
+{
+    font-size: 1em;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-left: 0px;
+    padding-top: 12px; padding-bottom: 12px;
+    font-family: source-sans-pro;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #686868;
+	border-bottom: 1px solid #D5D5D5;
+}
+
+.business-customers-list thead tr th:first-child
+{
+	padding-left: 3px; padding-right: 3px;
+}
+
+.business-customers-list tbody tr td
+{
+    padding-top: 20px; padding-bottom: 20px;
+	font-size: 1.3em;
+	font-weight: 300;
+	color:#474747;
+	border-bottom: 1px solid #D5D5D5;
+}
+
+.business-customers-list tbody tr td img
+{
+	 position: relative; 
+	 top: -1px;
+}
+
+.content
+{
+	z-index: 100;
+	height: 100%;
+	position: absolute;
+	left: 230px;
+	right: 0;
+	top: 32px;
+	bottom: 0;
+	overflow: hidden;
+}
+
+.top-bar {
+	position: fixed; top: 0px; width: 100%; height: 32px; background:#313131; z-index: 20000; color:#FFF;
+}
+
+.top-bar p {
+	display: inline;	
+	margin: 0px;
+}
+
+.top-bar * {
+	position: relative; top: 5px;
+}
+
+.top-bar .inactive {
+	color:#838383;
+}
+
+.background-fade {
+	background:#FFF;
+	width: 100vw;
+	height: 100vh;
+	opacity: 0.75;
+	z-index: 30000;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+
+.account-menu {
+	background:#FFF;
+	width: 500px;
+	height: 100vh;	
+	z-index: 100000;
+	position: fixed; left: -500px; top: 0px;
+}
+
+#main-container
+{
+	background-color: #FFF;
+	position: relative;
+	width: auto;
+	height: 100%;
+	padding-right: 0;	
+}
+
+#main {
+position: absolute;
+overflow: auto;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+.buttonrow
+{
+	padding: 24px 0px;
+}
+
+.bold
+{
+	font-weight:bold;
+}

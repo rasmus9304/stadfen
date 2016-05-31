@@ -1,0 +1,54 @@
+/* CSS Document */
+
+$btn-sidemenu-color:              #FFF !default;
+$btn-sidemenu-bg:                 transparent !default;
+$btn-sidemenu-border:             #FFF !default;
+
+.btn-sidemenu {
+  @include button-variant($btn-sidemenu-color, $btn-sidemenu-bg, $btn-sidemenu-border);
+  
+  	&:hover {
+	  border: 1px solid $btn-sidemenu-border;
+	  color: $btn-sidemenu-color;
+	}
+	
+	&[disabled] {
+		@include opacity(0.5);	
+	}
+	
+	@include tablet {
+		font-size: 1em;
+		border: 0px;	
+		
+		&:hover {
+			border: 0px;	
+		}
+	}
+	
+	@include phone {
+		font-size: 0.8em;
+		border: 0px;
+		
+		&:hover {
+			border: 0px;	
+		}
+	}
+
+}
+
+.btn-default { 
+  @include button-variant($btn-default-text, $theme-color-blue, $btn-default-border);
+}
+
+.btn-secondary { 
+  @include button-variant(#000, $theme-color-yellow, $btn-default-border);
+}
+
+.btn-default {
+	padding: 7px 20px 7px 20px;
+	
+	&:disabled {
+		background:$btn-default-disabled;
+		color:$btn-default-disabled-text;
+	}
+}

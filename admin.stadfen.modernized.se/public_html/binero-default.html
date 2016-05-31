@@ -1,0 +1,352 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" ><!-- Source is http://www.binero.se/webbhotell -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Binero - v&#228;nligast p&#229; webbhotell.</title>
+	<style type="text/css" media="screen">
+		body {
+			margin: 0;
+			padding: 0;
+			background: #666;
+			color: #666;
+			font-family: "Lucida Sans Unicode", "Lucida Sans", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+		}
+		
+		#toolbarwrapper {
+			height: 36px;
+			background: #cef415 url(http://www.binero.se/park_images/bg_toolbar.png) repeat-x;
+			white-space:nowrap;
+		}
+		
+		#toolbar, #top {
+			margin: 0 auto;
+			width: 800px;
+		}
+		
+		#toolbar p {
+			padding-top: 5px;
+		}
+		
+		#topwrapper {
+			clear: both;
+			height: 120px;
+			background: #666 url(http://www.binero.se/park_images/bg_top.png) repeat-x bottom;
+		}
+		
+		#logo {
+			float: left;
+			margin: 60px 0 0 0;
+			background: url(http://www.binero.se/_img/logo_binero.gif) no-repeat;
+			font-size: 5px;
+			text-indent: -2500px;
+			height: 61px;
+			width: 148px;
+		}
+		#letterhead {
+			float: right;
+			margin: 75px 0 0 0;
+			font-size: 1em;
+		}
+		#mainwrapper {
+			background: #fff url(http://www.binero.se/_img/bg_mainwrapper.png) repeat-y center;
+			border-bottom: 2px solid #bebebe;
+			padding-bottom: 15px;
+		}
+		
+		#mainwrapper2 {
+			background: url(http://www.binero.se/_img/bg_topline.gif) repeat-x top;
+		}
+		
+		#main {
+			margin: 0 auto 15px auto;
+			width: 896px;
+			border: 2px solid #fff;
+			background: #fff;
+		}
+		#content {
+			width: 800px;
+			padding: 48px;
+			background: url(http://www.binero.se/_img/bg_content.png) repeat-x top;
+		}
+		
+		#sidebar {
+			float: left;
+			padding: 20px 10px 10px 10px;
+			width: 136px;
+			min-height: 280px;
+			background: url(http://www.binero.se/park_images/bg_sidebar.png) no-repeat top left;
+		}
+		ol#substeps {
+			margin: 0;
+			padding: 0;
+			list-style: decimal inside;
+		}
+		
+		ol#substeps li {
+			background: none;
+			margin: 0;
+			padding: 5px;
+			font-size: 0.7em;
+			color: #999;
+		}
+		#footer {
+			width: 650px;
+			margin: 30px auto;
+		}
+		#footer a {
+			color: #999;
+		}
+		#footer p {
+			color: #999;
+			font-size: 0.7em;
+		}
+		h2 {
+			font-size: 1.5em;
+			font-weight: normal;
+			color: #95b00f;
+			margin: 0 0 0.5em 0;
+		}
+		
+		h3, h4, h5, h6 {
+			margin: 0 0 0.5em 0;
+		}
+		
+		p {
+			font-size: 0.8em;
+			color: #666;
+			margin: 0 0 1em 0;
+		}
+		
+		a {
+			color: #666;
+		}
+		
+		a:hover {
+			color: #333;
+		}
+		
+		ul {
+			margin: 0 0 15px 15px;
+			padding: 0;
+			list-style: none;
+		}
+		
+		li {
+			background: url(http://www.binero.se/park_images/bullet_arrow.gif) no-repeat 0 5px;
+			margin: 0 0 10px 0;
+			padding: 0 0 0 15px;
+			font-size: 0.8em;
+		}
+		
+		ol li {
+			background: none;
+			padding: 0;
+		}
+		img {
+			border: none;
+		}
+		.clear {
+			clear: both;
+		}
+		.paket {
+			float: left;
+			background: url(http://www.binero.se/_img/bg_pmiddle.png) no-repeat 0 64px;
+			height: 210px;
+			width: 266px;
+		}
+		
+		#p_foretag {
+			margin: 0 1px;
+		}
+		
+		.paket h3 {
+			height: 64px;
+			margin: 0;
+			text-indent: -3000px;
+		}
+		
+		#p_privat h3 {
+			background: url(http://www.binero.se/_img/bg_pprivat.png) no-repeat top;
+		}
+		
+		#p_foretag h3 {
+			background: url(http://www.binero.se/_img/bg_pforetag.png) no-repeat top;
+		}
+		
+		#p_doman h3 {
+			background: url(http://www.binero.se/_img/bg_pdoman.png) no-repeat top;
+		}
+		
+		.paket ul {
+			height: 109px;
+			margin: 0 0 0 25px;
+			padding: 0;
+			list-style: none;
+		}
+		
+		.paket ul li {
+			margin: 0 0 1px 0;
+			padding: 0 0 0 15px;
+			font-size: 0.7em;
+			line-height: 1.4em;
+			color: #666;
+			background: url(http://www.binero.se/_img/bullet_arrow.gif) no-repeat 0 3px;
+		}
+		
+		a.p_bestall {
+			background: url(http://www.binero.se/_img/bg_pbottom.png) no-repeat top;
+			display: block;
+			height: 37px;
+			text-indent: -3000px;
+		}
+		
+		a.p_bestall2 {
+			background: url(http://www.binero.se/_img/bg_pbottom2.png) no-repeat top;
+			display: block;
+			height: 37px;
+			text-indent: -3000px;
+		}
+		#homeleft {
+			float: left;
+			width: 509px;
+			margin-right: 25px;
+			margin-top: 25px;
+		}
+		
+		#homeright {
+			float: left;
+			width: 241px;
+			padding-left: 25px;
+			margin-top: 25px;
+			min-height: 230px;
+			background: url(http://www.binero.se/_img/bg_sidebar.png) no-repeat top left;
+		}
+		
+		#homeright p {
+			font-size: 0.8em;
+		}
+		
+		#homeright h3 {
+			font-weight: normal;
+			color: #73890c;
+			margin: 0 0 10px 0;
+		}
+		
+		#domainprices {
+			height: 202px;
+			width: 509px;
+			background: url(http://www.binero.se/_img/img_home_domainprices.png) no-repeat;
+		}
+		
+		#domainprices h2, #domainprices p {
+			font-size: 3px;
+			text-indent: -5000px;
+		}
+		
+		a.domainprices {
+			display: block;
+			height: 202px;
+			width: 509px;
+			background: url(http://www.binero.se/_img/img_home_domainprices.png) no-repeat;
+		}
+		
+		a.domainprices span {
+			font-size: 3px;
+			text-indent: -5000px;
+		}
+	</style>
+</head>
+<body>
+		<div id="topwrapper">
+			<div id="top">
+				<h1 id="logo">Binero</h1>
+				<h2 id="letterhead">Nytt konto</h2>
+			</div>
+		</div>
+		<div id="mainwrapper">
+			<div id="mainwrapper2">
+				<div id="main">
+					<div id="content">
+                      <div id="homeleft">
+                            <h2>Under konstruktion</h2>
+                            <p>Det h&auml;r dom&auml;nnamnet &auml;r registrerat och upplagt hos Binero AB.</p>
+                            <p>Inom kort kommer &auml;garen till dom&auml;nnamnet att l&auml;gga upp en webbsida h&auml;r, vi h&auml;lsar dig v&auml;lkommen &aring;ter. Om du &auml;r &auml;garen till detta dom&auml;nnamn, v&auml;nligen ladda upp din hemsida till mappen <em>example.com/public_html</em> (ers&auml;tt <em>example.com</em> med namnet p&aring; ditt dom&auml;namn) f&ouml;r att komma ig&aring;ng.</p>
+                          <p>
+
+                          Hur mycket betalade du f&#246;r ditt senaste dom&#228;nnamn?</p>
+                          
+                          	<a class="domainprices" href="https://www.binero.se/order/">
+                          		<span style="display: block; font-size: 3px; text-indent: -5000px;">
+                          			.com .net .org .biz .info <strong>89kr </strong>.se <strong>99kr</strong> .eu <strong>89kr</strong> .nu <strong>99kr</strong>
+                          		</span>
+                          	</a>
+                      </div>
+                        <div id="homeright">
+                            <h2>Varf&#246;r v&#228;lja oss? </h2>
+                            <p>V&#228;lj oss som din webbhotells- och dom&#228;nnamnsleverant&#246;r om du vill ha:</p>
+                            <ul>
+                                <li>Snabb och skicklig telefon- och e-postsupport</li>
+                                <li>H&#246;g funktionalitet och kraftfull kontrollpanel</li>
+                                <li>S&#228;kra och stabila servrar och tj&#228;nster</li>
+                                <li>Stora webbpaket och billiga dom&#228;nnamn</li>
+                                <li>V&#228;nliga och tillm&#246;tesg&#229;ende avtalsvillkor</li>
+                                <li>En &#246;ppen, &#228;rlig och dedikerad leverant&#246;r</li>
+                            </ul>
+                            <br /><br /><p></p>
+                        </div>
+                        <div id="p_privat" class="paket">
+                            <h3>Privatpaket 79 kr/m&#229;n</h3>
+                            <ul>
+                                <li>100 GB utrymme, 2000 GB trafik/m&#229;nad</li>
+                                <li>Telefon- och e-postsupport</li>
+                                <li>Obegr. antal dom&#228;ner och subdom&#228;ner</li>
+                                <li>Obegr. antal FTP- och e-postkonton</li>
+                                <li>Virus- och spamskydd f&#246;r e-post</li>
+                                <li>&Ouml;ppet k&ouml;p i 45 dagar</li>
+                            </ul>
+                            <a href="https://www.binero.se/order" class="p_bestall">Best&#228;ll</a>
+                        </div>
+                        <div id="p_foretag" class="paket">
+                            <h3>F&#246;retagspaket 158 kr/m&#229;n</h3>
+                            <ul>
+                                <li><span id="moTop"> 200 GB utrymme, 4000 GB trafik/m&#229;nad</span></li>
+                                <li><span>Telefon- och e-postsupport</span></li>
+                                <li>Obegr. antal dom&#228;ner och subdom&#228;ner</li>
+                                <li>Obegr. antal FTP- och e-postkonton</li>
+                                <li>Virus- och spamskydd f&#246;r e-post</li>
+                                <li>&Ouml;ppet k&ouml;p i 45 dagar</li>
+                            </ul>
+                            <a href="https://www.binero.se/order" class="p_bestall">Best&#228;ll</a>
+                        </div>
+                        <div id="p_doman" class="paket">
+                            <h3>Dom&#228;npaket 0 kr/m&#229;n</h3>
+                            <ul>
+                                <li>Obegr. antal dom&#228;ner och subdom&#228;ner</li>
+                                <li>E-postsupport</li>
+                                <li>Enkel och s&#228;ker DNS-hantering</li>
+                                <li>Parkering av dom&#228;ner</li>
+                                <li>Vidarebefordring av webb och e-post</li>
+                                <li>Flytta dom&#228;ner till oss, spara pengar</li>
+                            </ul>
+                            <a href="https://www.binero.se/order" class="p_bestall2">Best&#228;ll</a>
+                        </div>
+                        <br class="clear"  />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div id="footerleft">
+				<p id="copyright"><strong>Copyright &copy; 2001-2011 Binero AB</strong>, Jan Stenbecks torg 17, 164 40 Kista<br />
+				<strong>Telefon:</strong> 020-24 08 00, <strong>Fr&aring;n mobil:</strong> 0771-24 08 00, <strong>Fax:</strong> 08-514 80 140<br />
+				<strong>E-post:</strong> <a href="mailto:info@binero.se">info@binero.se</a>, <strong>WWW:</strong> <a href="http://www.binero.se">www.binero.se</a></p>
+			</div>
+		</div>
+		<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+		</script>
+		<script type="text/javascript">
+			_uacct = "UA-1689104-1";
+			urchinTracker();
+		</script>
+</body>
+</html>

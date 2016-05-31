@@ -1,0 +1,6 @@
+Header set Access-Control-Allow-Origin "http://webapp.stadfen.modernized.se"
+Header set Access-Control-Allow-Credentials "true"
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ comsystem/$1.php [NC,L]

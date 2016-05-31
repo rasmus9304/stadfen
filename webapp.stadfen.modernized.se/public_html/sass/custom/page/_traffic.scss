@@ -1,0 +1,63 @@
+/* CSS Document */
+
+.statistics-container {
+	margin: 0 auto;
+	width: 800px;
+	margin-top: 80px;
+	
+	@include tablet {
+		padding-left: 50px; padding-right: 50px;
+		width: 100%;	
+	}
+	
+	@include phone {
+		padding-left: 20px; padding-right: 20px;
+		width: 100%;	
+	}
+}
+
+#statistics_currentuser
+{
+	text-align: center;	
+	color:$background-theme-1-header-2;
+	margin: 22px 0px;
+	font-size: 1.7em;
+	font-weight: 300;
+}
+
+.statistics-time-display
+{
+	padding: 20px 0px;
+	background: $background-theme-1;
+	color:$background-theme-1-header-2;
+	text-align: center;	
+	font-size: 2.7em;
+	font-weight: 300;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	a {
+		color:$background-theme-1-header-2;
+		text-decoration: none;
+		font-size: 0.8em;
+		
+		&:first-child
+		{
+			margin-left: 25px;	
+		}
+		
+		&:last-child
+		{
+			margin-right: 25px;	
+		}
+	}
+}
+
+.statistics-chart-container
+{
+	padding-top: 50px;
+	border-left: 1px solid $background-theme-1;
+	border-right: 1px solid $background-theme-1;
+	border-bottom: 1px solid $background-theme-1;
+}

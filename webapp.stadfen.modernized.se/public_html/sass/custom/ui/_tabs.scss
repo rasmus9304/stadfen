@@ -1,0 +1,61 @@
+/* CSS Document */
+
+$font-size: 1.1em;
+$color: $background-theme-1-header;
+$item-spacing: 30px;
+$tab-height: 50px;
+
+.tabing {
+	
+	width: 100%;
+	overflow: hidden;
+	
+	.menu {
+		display: flex;
+		justify-content:center;
+		
+		a {
+			font-size: $font-size;
+			@include opacity(0.5);
+			color: $color;
+			text-decoration: none;
+			cursor: pointer;
+			margin: 0px $item-spacing;
+		}
+		
+		a:hover { 
+			@include opacity(1);
+		}
+		
+		a.active {	
+			@include opacity(1);
+			font-weight: 400;
+		}
+		 
+	}
+		
+}
+
+.tabing .active-container {
+
+	position: relative;
+	
+}
+
+.tabing.left .menu {
+		justify-content: flex-start;
+		padding: 20px 0px 6px 0px;
+		
+		a {
+			margin-right: $item-spacing*2; margin-left: 0px;
+		}
+		
+}
+
+.tabing.right .menu {
+		justify-content: flex-end;
+		
+		a {
+			margin-left: $item-spacing*2; margin-right: 0px;
+		}
+}

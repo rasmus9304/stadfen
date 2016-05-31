@@ -1,0 +1,123 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+nav a {
+    
+    font-size: 1.2em;
+    margin: 0px;
+    width: 100%;
+    font-weight: 400;
+    font-family: source-sans-pro;
+    text-transform: uppercase;
+    color: rgb(115, 115, 115);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	border: 0px;
+    border-top: 1px solid rgb(226, 226, 226);
+    display: block;
+    text-align: left;
+    padding: 21px 20px;
+	text-shadow: 0 1px 0 #fff;
+}
+
+body#page-customers nav a#nav-customers,
+body#page-accounts nav a#nav-accounts,
+body#page-cellsynt nav a#nav-cellsynt,
+body#page-exporting nav a#nav-exporting,
+body#page-settings nav a#nav-settings {
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(225,225,225,1)), color-stop(100%,rgba(246,246,246,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+}
+
+.business-customers-list
+{
+	border-left: 1px solid #E0E0E0; border-right: 1px solid #E0E0E0; border-bottom: 1px solid #E0E0E0; width: 100%;
+	float: left;
+}
+
+.business-customers-list thead th
+{
+    font-size: 0.7em;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-left: 0px;
+    padding-top: 12px; padding-bottom: 12px;
+    font-family: source-sans-pro;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(120, 120, 120);	
+}
+
+.business-customers-list thead tr th:first-child
+{
+	padding-left: 3px; padding-right: 3px;
+}
+
+.business-customers-list tbody tr td
+{
+    padding-top: 10px; padding-bottom: 10px;
+	border-top: 1px solid #E0E0E0;
+	font-size: 1.2em;
+	font-weight: 300;
+}
+
+.business-customers-list tbody tr td img
+{
+	 position: relative; 
+	 top: -1px;
+}
+
+.business-customers-list tbody tr td:first-child
+{
+    padding-left: 3px; padding-right: 3px;
+}
+
+.content
+{
+	z-index: 100;
+	height: 100%;
+	position: absolute;
+	left: 306px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+
+#main-container
+{
+	background-color: #FFF;
+	position: relative;
+	width: auto;
+	height: 100%;
+	padding-right: 0;	
+}
+
+#main {
+position: absolute;
+overflow: auto;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+.buttonrow
+{
+	padding: 24px 32px;
+}
+
+.bold
+{
+	font-weight:bold;
+}
